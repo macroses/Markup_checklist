@@ -24,13 +24,6 @@
 
 - Всю растровую контентную графику поставляем в браузер в виде элемента picture с указанием актуальных форматов, а также растр для плотности пикселей 2x.
 
-Пример:
-1
-2
-3
-4
-5
-	
 <picture>
   <source srcset="img/content/image-name.avif, img/content/image-name@2x.avif 2x" type="image/avif">
   <source srcset="img/content/image-name.webp, img/content/image-name@2x.webp 2x" type="image/webp">
